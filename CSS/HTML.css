@@ -1,0 +1,91 @@
+
+#mp1 p::first-line {   
+    background-color: springgreen;
+}
+
+#mp1 > aside h2 {   
+     background-color: yellow !important;
+}
+#mp1 > aside > article:first-child {
+    background-color: pink;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid purple;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+/* segundo articulo dentro del aside */
+#mp1 > aside > article:nth-child(2) {
+    background-color: pink;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid purple;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+/* tercer articulo dentro del aside */
+#mp1 > aside > article:nth-child(3) {
+    background-color: pink;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid purple;
+    padding: 5px;
+    box-sizing: content-box;
+}
+#mp1 > aside > article:nth-child(4) {
+    background-color: pink;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid purple;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+#mp1 > aside > article:last-child {   
+    background-color: pink;
+    width: 1000px;
+    height: 100px;
+    border: 5px solid purple;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+#mp1 footer p {
+    display: inline; /* hacer que un elemento que sea bloque se haga en línea y viceversa con block*/
+}
+
+#mp1 footer a {
+    display: block; /* hacer que un elemento que sea en línea se haga bloque */
+}
+
+#mp1 .parrafo1 {    /* ignora  el estilo para los elementos en línea */
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+#mp1 .link1 {    /* ignora  el estilo para los elementos en línea */
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+#mp1 .parrafo1 span {    /* ignora  el estilo para los elementos en línea */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lime; 
+}
+
+#mp1 footer article h2 {
+    font-size: 20px;
+    border: .25em solid black;      
+    padding: .5rem;
+}
